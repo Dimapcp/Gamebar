@@ -1,0 +1,43 @@
+/* Fixed invalid color-mix usage and selector names */
+.deskription{
+    font-size: 20px;
+    color: #006400; /* dark green */
+}
+
+html{
+    background-color: #e19147; /* light aqua */
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+}
+.front{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ulfront {
+    list-style-type: square;
+    color: #00008b; 
+    justify-self: center;
+}
+.shooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.inframefrontshoter {
+    margin: 0 auto;
+    display: block;
+}
+.logo  {
+    justify-content: left;
+    align-items: left;
+    float: left;
+
+}
+.afterlogo {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
