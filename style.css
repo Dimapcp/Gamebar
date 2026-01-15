@@ -1,0 +1,131 @@
+/* Fixed invalid color-mix usage and selector names */
+.deskription{
+    font-size: 20px;
+    color: #006400; /* dark green */
+}
+
+html{
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+}
+.front {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.ulfront {
+    list-style-type: square;
+    color: #00008b; 
+    justify-self: center;
+}
+.shooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.imgfront {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+.inframefrontshoter {
+    margin: 0 auto;
+    display: block;
+}
+.logo  {
+    justify-content: left;
+    align-items: left;
+    float: left;
+
+}
+.afterlogo {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+div.hf1 {
+    background-image: url(p1.jpg);
+    background-size: cover;
+}
+ul.navlink {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+ul.navlink li {
+    float: left;
+}
+ navlink {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+ul.navlink li {
+    flex: 1;
+    min-width: 100px;
+}
+
+ul.navlink li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+ul.navlink li a:hover {
+    background-color: #ff6b35;
+    border-bottom: 3px solid #ffd60a;
+    color: white;
+    transform: scale(1.05);
+}
+
+ul.navlink li a:active {
+    background-color: #d62828;
+}
+main {
+    background-color: #ffffff; 
+}
+footer {
+    background: #000000;
+    text-align: center;
+}
+.colon1 {
+    display: flex;
+    justify-content: start;
+}
+.colon2 {
+    display: flex;
+    justify-content: space-between;
+}
+.colon3 {
+    display: flex;
+    justify-content: end;
+}
+.vistext {
+    color: #ffffff;
+}
+textarea {
+    width: 200px;
+    height: 100px;
+    resize: none;
+}
+a  {
+    color: #1403ff;
+}
